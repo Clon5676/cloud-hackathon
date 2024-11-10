@@ -20,4 +20,4 @@ spec:
         - containerPort: 5000
         env:
         - name: DATABASE_URL
-          value: ""
+          value: "postgresql://postgresql:CloudClase2024@database-1.cpamwc6gupsv.us-east-2.rds.amazonaws.com:5432/database-1"
